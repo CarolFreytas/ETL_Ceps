@@ -4,7 +4,7 @@
 
 # Pipeline para Tratamento, Enriquecimento, e Validação de CEPs Brasileiros.
 
-Os arquivos do CEP Aberto não acompanham este repositório. Eles devem ser obtidos diretamente da fonte oficial e colocados na pasta (entrada_cep_aberto), pasta essa que utilizei com minha camada staging - para o pouso dos dados brutos.
+Os arquivos do CEP Aberto não acompanham este repositório. Eles devem ser obtidos diretamente da fonte oficial e colocados na pasta **(entrada_cep_aberto)**, pasta essa que utilizei com minha camada staging - para o pouso dos dados brutos.
 
 Fonte: https://www.cepaberto.com/downloads/new
 
@@ -90,6 +90,13 @@ ETL_Ceps/
 ├── LICENSE
 └── README.md
 ```
+---
+
+# Diagrama de Arquitetura 
+
+
+<img width="1536" height="1024" alt="ChatGPT Image 3 de jul  de 2026, 14_51_34" src="https://github.com/user-attachments/assets/e516d998-0cc1-4628-82c2-936214061ce2" />
+
 
 ---
 
