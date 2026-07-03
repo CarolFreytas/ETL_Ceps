@@ -4,7 +4,7 @@
 
 # Pipeline para Tratamento, Enriquecimento, e Validação de CEPs Brasileiros.
 
-Os arquivos do CEP Aberto não acompanham este repositório. Eles devem ser obtidos diretamente da fonte oficial e colocados na pasta entrada_cep_aberto, pasta essa que utilizei com minha camada staging - para o pouso dos dados brutos.
+Os arquivos do CEP Aberto não acompanham este repositório. Eles devem ser obtidos diretamente da fonte oficial e colocados na pasta (entrada_cep_aberto), pasta essa que utilizei com minha camada staging - para o pouso dos dados brutos.
 
 Fonte: https://www.cepaberto.com/downloads/new
 
@@ -16,7 +16,7 @@ O projeto foi desenvolvido em Python utilizando arquitetura medalhão em camadas
 
 # Objetivo
 
-O **ETL_Ceps** foi desenvolvido para automatizar todo o processo de preparação, enriquecimento e validação de bases de CEPs brasileiros.
+O **ETL_Ceps** foi desenvolvido para automatizar todo o processo de preparação, enriquecimento e validação de bases de CEPs brasileiros. Já que a fonte oficial dos correios, não disponibiliza esses dados gratuitamente.
 
 O pipeline recebe arquivos que são extraídos do site **CEP Aberto**, onde eu realizei a limpeza, padronização, consulta automática à API CEPify, validação junto às bases oficiais do IBGE e por fim foi produzido relatórios completos de auditoria e indicadores de qualidade dos dados.
 
@@ -223,6 +223,7 @@ Ao final será aberto automaticamente o Dashboard HTML.
 
 | Camada | Objetivo |
 |---------|----------|
+| Staging | Pouso dos dados bruto |
 | Bronze | Preparação dos dados |
 | Silver | Enriquecimento via API |
 | Gold | Validação com IBGE |
@@ -307,7 +308,7 @@ A IA contribuiu com discussões sobre arquitetura, otimização de código, iden
 
 Este trabalho demonstra como a colaboração entre profissionais e Inteligência Artificial pode acelerar o desenvolvimento de soluções robustas, bem documentadas e alinhadas às boas práticas da Engenharia de Dados.
 
-# Este projeto demonstra como profissionais e Inteligência Artificial podem colaborar para desenvolver soluções de Engenharia de Dados mais robustas, eficientes e bem documentadas.
+Este projeto demonstra como profissionais e Inteligência Artificial podem colaborar para desenvolver soluções de Engenharia de Dados mais robustas, eficientes e bem documentadas.
 
 ---
 
