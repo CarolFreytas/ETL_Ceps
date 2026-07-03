@@ -4,7 +4,7 @@
 
 # Pipeline para Tratamento, Enriquecimento, e Validação de CEPs Brasileiros.
 
-Os arquivos do CEP Aberto não acompanham este repositório. Eles devem ser obtidos diretamente da fonte oficial e colocados na pasta **(entrada_cep_aberto)**, pasta essa que utilizei com minha camada staging - para o pouso dos dados brutos.
+Os arquivos do CEP Aberto não acompanham este repositório. Eles devem ser obtidos diretamente da fonte oficial e colocados na pasta **(entrada_cep_aberto)**, pasta essa que utilizei como minha camada staging - para o pouso dos dados brutos.
 
 Fonte: https://www.cepaberto.com/downloads/new
 
